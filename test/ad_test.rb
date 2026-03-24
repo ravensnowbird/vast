@@ -1,4 +1,5 @@
 require 'test_helper'
+require 'uri'
 
 class AdTest < Test::Unit::TestCase
   

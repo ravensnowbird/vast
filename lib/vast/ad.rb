@@ -1,3 +1,4 @@
+require 'uri'
 module VAST
   # Contains some combination of video, companions, and non-linear units for a single advertiser.
   #

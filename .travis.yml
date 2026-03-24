@@ -3,6 +3,8 @@ language: ruby
 script: bundle exec rake
 matrix:
   include:
+    - rvm: 3.3.4
+      gemfiles: gemfiles/nokogiri_1.16.7.gemfile
     - rvm: 2.6.3
       gemfiles: gemfiles/nokogiri_1.10.4.gemfile
     - rvm: 2.5.5
